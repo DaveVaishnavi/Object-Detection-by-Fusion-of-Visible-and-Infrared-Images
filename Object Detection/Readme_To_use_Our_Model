@@ -1,0 +1,30 @@
+############################################################
+############################################################
+
+This Project is done under Guidance of Pro. Brijesh Kumar Kaushik, ECE Dept. IIT Roorkee.
+
+############################################################
+############################################################
+
+To run this project, one must have open cv (version 3 or higher) installed.
+
+############################################################
+
+Steps to follow:
+
+Step 1: Open terminal in linux system
+Step 2: Navigate to the folder containing mode files and code
+
+**if cv2 is installed in virtual environment follow Step 3 and 4 else skip to Step 5
+
+Step 3: Write command: source ~/.profile
+Step 4: Write command: workon cv (cv == name of your virtual environment wher cv2 is installed)
+Step 5: For Image write:
+
+python for_Image.py --prototxt SSDprototxt.txt --model SSDmodel.caffemodel --image images/srs.jpg 
+
+****Where srs.jpg is image name, replace it with other image name to test.****
+
+Step 6: For Live Video write: python for_live_video.py --prototxt SSDprototxt.txt --model SSDmodel.caffemodel
+
+#############################################################
